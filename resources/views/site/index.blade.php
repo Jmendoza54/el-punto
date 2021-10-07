@@ -66,7 +66,7 @@
                 <div class="el-punto">
                     <img src="{{ asset('img/site/bandera-venezuela.png') }}" alt="Bandera Venezuela" class="bandera">
                     <h2 class="title">
-                        el punto the venezuelan corner video experiencia en el punto
+                        el punto the venezuelan corner
                     </h2>
 
                     <p>
@@ -86,7 +86,7 @@
     <!-----------------------------Sección Prensa----------------------------------->
     <div class="prensa flex-col" id="prensa">
         <div class="cont">
-            <h2 class="title">el punto prensa</h2>
+            <h2 class="title">prensa</h2>
             <p class="desc">
                 ESTE PROYECTO NACIÓ EL 1 DE ENERO DE 2021 EN PLAYA DEL CARMEN Y HEMOS TENIDO APARICIÓN EN DIVERSOS MEDIOS CON GRAN PRESTIGIO EN LA RIVIERA MAYA QUE AVALAN 
                 NUESTRO SERVICIO, CALIDAD DE PRODUCTO Y EL AMOR QUE TIENE INYECTADO ESTE CONCEPTO DE AREPERA GASTRO BAR.

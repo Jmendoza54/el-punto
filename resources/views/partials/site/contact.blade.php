@@ -32,7 +32,7 @@
             </div>
         </div>
         <p class="ads">
-            calle <span class="text-yellow">quinta avenida</span> 38, gonzalo guerrero, 77720 playa del carmen, q.r., México
+            <span class="text-yellow">5ta Av,</span> Esquina Calle 38 Nte, 77710, Playa del Carmen, Q.Roo, México
         </p>
         <p class="hours">
             7:00 - 23:00 hrs todos los días <span class="text-red">everyday</span>
