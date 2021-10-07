@@ -8,7 +8,7 @@
             <div class="point"></div>
             <li>
                 <a href="#home" class="active a-point">
-                    home
+                    inicio
                     <point></point>
                 </a>
             </li>
@@ -26,7 +26,7 @@
             </li>
             <li>
                 <a href="#prensa" class="a-point">
-                    press
+                    prensa
                     <point></point>
                 </a>
             </li>
@@ -39,7 +39,7 @@
             <li id="menu-order-now">
                 <a href="https://elpunto.ola.click" target="_blank">
                     <span class="bold">menú</span>
-                    order now
+                    ordena ahora
                 </a>
             </li>
         </nav>

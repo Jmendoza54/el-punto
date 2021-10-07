@@ -33,14 +33,13 @@
                     el punto sampler
                 </h2>
                 <p class="text-white bg-red sub-title">
-                    lo mejor de venezuela en méxico!
+                    ¡lo mejor de venezuela en méxico!
                 </p>
                 <p class="desc text-white">
-                    Ven y prueba junto con tu Pareja o Amigos el fantástico sabor único de el Sampler más representativo de "El Punto"<br>
-                    The Venezuelan Corner.
+                    Ven y prueba junto con tu pareja o amigos el sabor único de el sampler más representativo de nuestra arepera: “El Punto Sampler”.
                 </p>
                 <p class="included text-yellow">
-                    incluye: 8 mini arepas, 3 mini empanadas (1 carne mechada, 1 pollo mechado, 1 queso), 5 tequeños, queso de mano, nata venezolana, salsa.
+                    INCLUYE: 8 MINI AREPAS, 3 MINI EMPANADAS (1 CARNE MECHADA, 1 POLLO MECHADO, 1 QUESO), 5 TEQUEÑOS, QUESO DE MANO VENEZOLANO, NATA VENEZOLANA, SALSA “EL PUNTO”.
                 </p>
             </div>
             <div class="col half half-sampler">
@@ -101,7 +100,7 @@
             <div class="group logos">
                 <div class="col third mt-center cont-prensa">
                     <img src="{{ asset('img/site/neon_playacar_2.png') }}" alt="" class="logo-neon logo-playacar">
-                    <p class="text">Probando por primera vez el Pepito Venezolano.
+                    <p class="text"><span class="text-red">Probando por primera vez el Pepito Venezolano.</span><br>
                         El Punto The Venezuelan Corner, el sitio para probar el tradicional Pepito Venezolano. 
                         </p>
                     <div class="btn-prensa">
@@ -110,7 +109,7 @@
                 </div>
                 <div class="col third cont-prensa">
                     <img src="{{ asset('img/site/neon_residente_2.png') }}" alt="" class="logo-neon logo-residente">
-                    <p class="text">El Punto The Venezuelan Corner, en palabras de su Chef.
+                    <p class="text"><span class="text-red">El Punto The Venezuelan Corner, en palabras de su Chef.</span><br>
                         El Punto The Venezuelan Corner es el primer restaurante de gastronomía Venezolana en la Quinta Avenida de Playa del Carmen.
                     </p>
                     <div class="btn-prensa">
@@ -119,7 +118,7 @@
                 </div>
                 <div class="col third mt-center cont-prensa">
                     <img src="{{ asset('img/site/neon_sigue_2.png') }}" alt="" class="logo-neon logo-sigue">
-                    <p class="text">Playa del Carmen cuenta con un punto de gastronomía venezolana.
+                    <p class="text"><span class="text-red">Playa del Carmen cuenta con un punto de gastronomía venezolana.</span><br>
                         Un lugar para degustar la comida de Venezuela, conoce el Punto The Venezuelan Corner.
                     </p>
                     <div class="btn-prensa">

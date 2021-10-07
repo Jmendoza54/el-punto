@@ -7,7 +7,7 @@
 </div>
 
 <div class="mobile">
-    <li><a href="#home">home</a></li>
+    <li><a href="#home">inicio</a></li>
     <li><a href="#punto">elpunto</a></li>
     <li><a href="https://elpunto.ola.click" target="_blank">menú</a></li>
     <li><a href="#blog">blog</a></li>

@@ -2,7 +2,7 @@
     <div class="point"></div>
     <li>
         <a href="#home" class="">
-            home
+            inicio
         </a>
     </li>
     <li>

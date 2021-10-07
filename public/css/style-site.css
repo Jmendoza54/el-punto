@@ -580,6 +580,14 @@ div.prensa .text{
     margin: 0 auto;
     text-align: center;
     max-width: 400px;
+    line-height: 28px;
+}
+div.prensa .text span{
+    font-weight: 500;
+    font-size: 28px;
+    display: block;
+    width: 256px;
+    margin: 5px auto;
 }
 div.prensa .mt-center{
     margin-top: 40px;
