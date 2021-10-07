@@ -18,7 +18,7 @@
             
             <div class="cont text-center">
                 <img src="{{ asset('img/site/logo-main.png') }}" alt="" class="logo">
-                <h1 class="title-main text-white">venezuela está en la 5ta!</h1>
+                <h1 class="title-main text-white">¡venezuela está en la 5ta!</h1>
                 <h2 class="sub-title text-yellow">venezuela is on the 5th avenue!</h2>
             </div>
         </div>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="cont-blog">
                     <div class="aro flex-col">
-                        <div style="background-image:url('{{ asset('img/site/blog-img-2.png') }}')" class="img-blog"></div>
+                        <div style="background-image:url('{{ asset('img/site/blog-img-2.jpg') }}')" class="img-blog"></div>
                     </div>
                     <idv class="info-blog">
                         <h2 class="title text-yellow">
@@ -169,7 +169,7 @@
                 </div>
                 <div class="cont-blog">
                     <div class="aro flex-col">
-                        <div style="background-image:url('{{ asset('img/site/blog-img-2.png') }}')" class="img-blog"></div>
+                        <div style="background-image:url('{{ asset('img/site/blog-img-2.jpg') }}')" class="img-blog"></div>
                     </div>
                     <idv class="info-blog">
                         <h2 class="title text-yellow">

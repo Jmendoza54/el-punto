@@ -42,10 +42,10 @@ Route::get('/generate-code', [PromoController::class, 'generateCode']);
 Route::get('/apply-code/{code}', [PromoController::class, 'applyCode'])->name('apply.code');
 Route::get('/download-qr/{code}', [PromoController::class, 'downloadQr'])->name('download.qr');
 
-Route::get('/reset', function (){
+/* Route::get('/reset', function (){
     Artisan::call('route:clear');
     Artisan::call('cache:clear');
     Artisan::call('config:clear');
     Artisan::call('config:cache');
-});
+}); */
 
