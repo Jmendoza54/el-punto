@@ -51,7 +51,7 @@
         </div>
 
         <p class="conci-login">
-            revisa tus reservas <a ref="/concierge" target="_blank" class="text-yellow btn-con-login">concierge login</a>
+            revisa tus reservas <a href="/concierge" target="_blank" class="text-yellow btn-con-login">concierge login</a>
         </p>
     </div>
     <footer>
