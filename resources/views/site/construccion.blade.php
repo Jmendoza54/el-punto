@@ -22,7 +22,7 @@
         .container{
             width: 100%;
             min-height: 100%;
-            background-image: url(img/site/bg_address.png);
+            background-image: url(img/site/bg_address.jpg);
             background-position: center;
             background-size: cover;
             display: flex;
