@@ -27,7 +27,7 @@ Route::get('/concierge', function () {
 })->name('concierge');
 
 Route::get('/about-us', function () {
-    return 'Página de About us';
+    return view('site.about-us');
 })->name('about.us');
 
 //Promo

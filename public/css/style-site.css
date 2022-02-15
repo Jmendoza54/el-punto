@@ -115,7 +115,8 @@ h2{
 }
 .col:first-child { margin-left: 0; }
 .cont{
-    width: 960px;
+    width: 90%;
+    max-width: 960px;
     margin: 0 auto;
     position: relative;
 }
@@ -133,6 +134,9 @@ h2{
 }
 .five{
     width: 20%;
+}
+.text-up{
+    text-transform: uppercase;
 }
 .text-center{
     text-align: center;
@@ -541,7 +545,7 @@ div.prensa .title{
     color: white;
     text-transform: uppercase;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     margin: 40px 0;
 }
@@ -956,6 +960,297 @@ div.prensa .slick-prev{
 div.prensa .m-c{
     margin: 0 auto;
 }
+
+div.about{
+    min-height: 900px;
+    background-image: url('../img/site/bg-wood.png');
+    background-position: bottom;
+    background-size: contain;
+    padding-top: 180px;
+}
+div.about .cont{
+    max-width: unset;
+    width: 1280px;
+}
+div.about .title-main {
+    letter-spacing: 2px;
+    font-size: 31px;
+    margin: 10px 0;
+    text-shadow: 0px 0px 6px rgb(0 0 0 / 86%);
+    font-weight: 600;
+}
+div.about .sub-title {
+    letter-spacing: 2px;
+    font-size: 23px;
+    text-shadow: 0px 0px 6px rgb(0 0 0 / 86%);
+    font-weight: 400;
+}
+div.about .img-ver{
+    max-width: 420px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(0.9);
+    z-index: 0;
+    position: relative;
+}
+div.about .desc{
+    text-align: left;
+    font-family: 'Neutra';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 28px;
+    text-shadow: 0 0 5px black;
+}
+div.about .desc-punto{
+    margin-top: -135px;
+    position: relative;
+}
+div.about .logo{
+    width: 90%;
+    max-width: 350px;
+    display: block;
+    margin: 30px auto;
+}
+div.about .mt{
+    margin-top: 90px;
+}
+div.about .sampler{
+    width: 90%;
+    max-width: 450px;
+    margin: 20px auto;
+    display: block;
+}
+div.about .criollo{
+    width: 90%;
+    max-width: 550px;
+}
+div.about .mt-c{
+    margin-top: -180px;
+}
+div.about .desc-raices{
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+}
+div.about .desc-raices .text-bold{
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+    font-size: 44px;
+    line-height: 50px;
+}
+div.about .bg-harina-1{
+    background-image: url('../img/site/harina.png');
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+div.about .arepita_jitomate{
+    position: absolute;
+    width: 250px;
+    z-index: 0;
+    left: -95px;
+    top: -50px;
+}
+div.about .each_food{
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+div.about .each_food_bg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    filter: brightness(0.9);
+    aspect-ratio: 16/9;
+}
+div.about .arepita_moliendo{
+    width: 165px;
+    position: absolute;
+    bottom: -120px;
+    right: 13px;
+}
+div.about .title-each-food{
+    font-weight: 700;
+    font-size: 35px;
+    white-space: pre-line;
+    text-align: left;
+    line-height: 53px;
+    margin-top: -85px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+div.about .pollo_mechado{
+    width: 160px;
+    position: absolute;
+    left: 20px;
+}
+div.about .arepita_beans{
+    width: 350px;
+    float: right;
+    margin-top: 80px;
+}
+div.about .foto_arepa{
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+div.about .bg-harina-2{
+    background-image: url('../img/site/harina-002.png');
+    background-position: top;
+    background-size: contain;
+}
+div.about .cont_map{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    position: relative;
+    top: -100px;
+}
+div.about .bg_map{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    aspect-ratio: 1/1;
+    max-width: 450px;
+    background-image: url('../img/site/Mapa.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+div.about .bg_map_before:before{
+    content: '';
+    width: calc(100% + 500px);
+    height: calc(100% + 500px);
+    position: absolute;
+    top: -50px;
+    left: 0;
+    background-image: url(../img/site/harina-1.png);
+    background-position: top;
+    background-size: contain;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+div.about .text-number{
+    font-size: 24px;
+}
+div.about .desc_map{
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 37px;
+    white-space: pre-line;
+}
+div.about .cont_third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div.about .cuchara_arroz{
+    width: 180px;
+}
+div.about .arepita_lista{
+    width: 135px;
+    margin: 0 20px;
+}
+div.about .carne_mechada{
+    width: 150px;
+    margin-left: 20px;
+}
+div.about .desc_sabor{
+    text-align: center;
+    white-space: pre-line;
+    line-height: 35px;
+    margin-bottom: 15px;
+    margin-top: -35px;
+}
+div.about .bg_sabor_casero{
+    background-image: url('../img/site/bg_sabor.png');
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+div.about .title_sabor{
+    font-weight: 700;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: -25px;
+    font-size: 36px;
+}
+div.about .foto_arepa_love{
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+div.about .cont_sabor{
+    margin-top: -60px;
+}
+div.about .foto_queso{
+    width: 180px;
+    position: absolute;
+    right: -45px;
+    bottom: 175px;
+}
+div.about .foto_guacamole{
+    width: 90%;
+    max-width: 270px;
+    position: absolute;
+    right: 135px;
+    margin-top: 45px;
+}
+div.about .welcome{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px auto;
+}
+div.about .text-transform{
+    display: inline-block;
+    perspective: 170px;
+    font-size: 19px;
+}
+div.about .left{
+    display: inline-block;
+    transform: rotateY( 15deg) translateX(5px);
+}
+div.about .right{
+    display: inline-block;
+    transform: rotateY( -15deg) translateX(-5px);
+}
+div.about .btn_order_now{
+    width: fit-content;
+    margin: 25px auto;
+}
+div.about .btn_order_now a{
+    display: block;
+    padding: 12px 28px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+div.about .bg_subway{
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/site/subway.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 20px;
+}
 @media only screen and (max-width: 1349px) {
     div.promo .cont{
         left: unset;
@@ -1003,8 +1298,28 @@ div.prensa .m-c{
         max-width: 780px;
         width: calc(90% - 263px);
     }
+    div.about .foto_guacamole{
+        right: 50px;
+    }
+    div.about .foto_queso{
+        right: -100px;
+    }
 }
-
+@media only screen and (max-width: 1349px){
+    div.about .cont{
+        width: 90%;
+    }
+    div.about .criollo{
+        max-width: 420px;
+    }
+    div.about .arepita_jitomate{
+        width: 195px;
+        left: -125px;
+    }
+    div.about .title-each-food{
+        font-size: 30px;
+    }
+}
 @media only screen and (max-width: 1150px){
     div.promo .flex-row{
         flex-direction: column;
@@ -1063,6 +1378,9 @@ div.prensa .m-c{
         max-width: 960px;
         margin: 0 auto;
     }
+    div.about .criollo{
+        max-width: 350px;
+    }
 }
 @media only screen and (max-width: 980px){
     .third{
@@ -1111,11 +1429,74 @@ div.prensa .m-c{
     div.prensa-main::after{
         bottom: 0;
     }
+    div.about .pollo_mechado{
+        width: 140px;
+    }
+    div.about .arepita_beans{
+        width: 280px;
+    }
+    div.about .arepita_moliendo{
+        width: 140px;
+        right: 0;
+    }
+    div.about .foto_guacamole{
+        max-width: 200px;
+        right: 15px;
+    }
+    div.about .foto_queso{
+        right: -100px;
+    }
 }
 @media only screen and (max-width: 840px){
     .menu img{
         width: 150px;
     }
+    div.about .mt{
+        margin-top: 30px;
+    }
+    div.about .desc-raices .text-bold{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    div.about .desc-raices{
+        font-size: 26px;
+    }
+    div.about .arepita_jitomate {
+        width: 163px;
+        left: -200px;
+        top: 20px;
+    }
+    div.about .pollo_mechado, div.about .carne_mechada, div.about .foto_queso{display: none;}
+    div.about .arepita_beans{
+        margin-top: 0;
+    }
+    div.about .title-each-food {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    div.about .arepita_moliendo {
+        width: 140px;
+        right: -75px;
+        bottom: -45px;
+    }
+    div.about .desc_map{
+        line-height: 35px;
+        white-space: unset;
+    }
+    div.about .cont_map{
+        top: 0;
+    }
+    div.about .cont_sabor {
+        margin-top: 20px;
+    }
+    div.about .title_sabor{
+        width: auto;
+        font-size: 32px;
+    }
+    div.about .desc_sabor{
+        white-space: normal;
+    }
+    .half{width: 100%;}
 }
 @media only screen and (max-width: 770px){
     div.menu .cont{
@@ -1307,6 +1688,38 @@ div.prensa .m-c{
     }
     div.punto .el-punto p{
         font-size: 15px;
+    }
+    div.about .cont {
+        width: 100%;
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+    div.about .mt-c{
+        margin-top: 0;
+    }
+    div.about .bg-harina-2{
+        margin-top: 35px;
+    }
+    div.about .bg-harina-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.about .cont_map{
+        flex-direction: column-reverse;
+        margin-top: 35px;
+    }
+    div.about .foto_guacamole{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    div.about .bg_subway{
+        height: 89px;
+    }
+    .btn-con-reg{
+        margin: 15px 0;
     }
 }
 @media only screen and (max-width: 550px){

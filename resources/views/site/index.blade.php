@@ -205,18 +205,24 @@
         slidesToShow: 1,
         arrows: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 10000,
         responsive: [
             {
                 breakpoint: 1150,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 10000,
                 }
             },
             {
                 breakpoint: 550,
                 settings: {
                     arrows: false,
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 10000,
                 }
             }
         ]
