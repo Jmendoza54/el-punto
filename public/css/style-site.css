@@ -115,10 +115,9 @@ h2{
 }
 .col:first-child { margin-left: 0; }
 .cont{
-    width: 90%;
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
-    position: relative;
+    position: relative; 
 }
 .one{
     width: 100%;
