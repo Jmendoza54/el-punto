@@ -1245,7 +1245,6 @@ div.about .bg_subway{
     width: 100%;
     height: 250px;
     background-image: url('../img/site/subway.png');
-    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     margin-top: 20px;
