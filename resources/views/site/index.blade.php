@@ -131,65 +131,16 @@
 
     <div class="blog flex-col my-slick" id="blog">
         <div class="bg_black"></div>
-        <div class="cont">
-            <img src="{{ asset('img/site/blog-title.png') }}" class="img-blog-title" alt="Blog">
-            <div class="slick-blog ">
-                <div class="cont-blog">
-                    <div class="aro flex-col">
-                        <div style="background-image:url('{{ asset('img/site/blog-img.png') }}')" class="img-blog"></div>
-                    </div>
-                    <idv class="info-blog">
-                        <h2 class="title text-yellow">
-                            Con amor de pana a pana
-                        </h2>
-                        <p class="desc">
-                            Queremos hacer equipo junto con cada uno de ustedes que nos visitan, por lo cual hemos seleccionado nuestra popular arepa mix & match.
-                        </p>
-                        {{-- <div class="btn-blog-more">
-                            <a href="javascript:void(0);" class="text-yellow">leer más...</a>
-                        </div> --}}
-                    </idv>
-                </div>
-                <div class="cont-blog">
-                    <div class="aro flex-col">
-                        <div style="background-image:url('{{ asset('img/site/blog-img-2.jpg') }}')" class="img-blog"></div>
-                    </div>
-                    <idv class="info-blog">
-                        <h2 class="title text-yellow">
-                            NOSOTROS…
-                        </h2>
-                        <p class="desc">
-                            Para las personas que deseen probar un sabor casero y autóctono, hay un sin fin de exquisitas comidas dulces y saladas, que se apoderarán de los paladares más exigentes.
-                        </p>
-                        {{-- <div class="btn-blog-more">
-                            <a href="javascript:void(0);" class="text-yellow">leer más...</a>
-                        </div> --}}
-                    </idv>
-                </div>
-                <div class="cont-blog">
-                    <div class="aro flex-col">
-                        <div style="background-image:url('{{ asset('img/site/blog-img-2.jpg') }}')" class="img-blog"></div>
-                    </div>
-                    <idv class="info-blog">
-                        <h2 class="title text-yellow">
-                            Una carta de amor a la arepa
-                        </h2>
-                        <p class="desc">
-                            Reconocemos tu belleza, valor, riqueza, tu esfuerzo por siempre sacar lo mejor de mí o de cada persona que te conoce.
-                        </p>
-                        {{-- <div class="btn-blog-more">
-                            <a href="javascript:void(0);" class="text-yellow">leer más...</a>
-                        </div> --}}
-                    </idv>
-                </div>
-            </div>
+        <div class="slick-blog" id="app" style="width:100%">
+            <blog-component></blog-component>
         </div>
     </div>
-
+ 
     @include('partials.site.contact')   
 @endsection
 
-@section('js')
+@section('js') 
+    <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/ScrollMagic.min.js') }}"></script>
     <script src="{{ asset('js/TweenMax.min.js') }}"></script>
@@ -198,34 +149,36 @@
     <script src="{{ asset('js/script-site.js')}}"></script>
     <script src="{{ asset('js/parallax.js')}}"></script>
     <script>
-        //Carrousel de blog
-    $('.slick-blog').slick({
-        centerMode: true,
-        centerPadding: '0px',
-        slidesToShow: 1,
-        arrows: true,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        responsive: [
-            {
-                breakpoint: 1150,
-                settings: {
-                    slidesToShow: 1,
-                    autoplay: true,
-                    autoplaySpeed: 10000,
-                }
-            },
-            {
-                breakpoint: 550,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1,
-                    autoplay: true,
-                    autoplaySpeed: 10000,
-                }
-            }
-        ]
-    });
+        $( document ).ready(function() {
+            $(".slick-blog-2").slick({
+                centerMode: true,
+                centerPadding: "0px",
+                slidesToShow: 1,
+                arrows: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 10000,
+                responsive: [
+                    {
+                        breakpoint: 1150,
+                        settings: {
+                            slidesToShow: 1,
+                            autoplay: true,
+                            autoplaySpeed: 10000,
+                        },
+                    },
+                    {
+                        breakpoint: 550,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 1,
+                            autoplay: true,
+                            autoplaySpeed: 10000,
+                        },
+                    },
+                ],
+            });
+});
+        
     </script>
 @endsection
