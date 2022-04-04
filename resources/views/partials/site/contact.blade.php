@@ -19,7 +19,7 @@
                 <a href="https://www.google.com/maps/place/El+Punto+The+Venezuelan+Corner/@20.6353251,-87.0661162,15z/data=!4m5!3m4!1s0x0:0x9fa54e1c0e7fb946!8m2!3d20.6353251!4d-87.0661162" target="_blank">
                     <img src="{{ asset('img/site/icon-google.png') }}" alt="" class="icon-social">
                 </a>
-                <a href="https://biz.yelp.com.mx/home/x0xgMWrOThodlTNCCjJwgA/" target="_blank">
+                <a href="https://www.yelp.com.mx/biz/el-punto-the-venezuelan-corner-playa-del-carmen-2" target="_blank">
                     <img src="{{ asset('img/site/icon-yelp.png') }}" alt="" class="icon-social">
                 </a>
             </div>
