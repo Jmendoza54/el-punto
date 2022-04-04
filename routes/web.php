@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 //SITE
 Route::get('/', function () {
     return view('site.index');
-});
+})->name('index');
 
 Route::get('/prensa', function () {
     return view('site.prensa');

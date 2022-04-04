@@ -7,31 +7,31 @@
         <nav class="general">
             <div class="point"></div>
             <li>
-                <a href="#home" class="active a-point">
+                <a href="{{ route('index') }}" class="active a-point">
                     inicio
                     <point></point>
                 </a>
             </li>
             <li>
-                <a href="#punto" class="a-point">
+                <a href="{{ route('index') }}/#punto" class="a-point">
                     elpunto
                     <point></point>
                 </a>
             </li>
             <li>
-                <a href="#blog" class="a-point">
+                <a href="{{ route('index') }}/#blog" class="a-point">
                     blog
                     <point></point>
                 </a>
             </li>
             <li>
-                <a href="#prensa" class="a-point">
+                <a href="{{ route('index') }}/#prensa" class="a-point">
                     prensa
                     <point></point>
                 </a>
             </li>
             <li>
-                <a href="#contact" class="a-point">
+                <a href="{{ route('index') }}/#contact" class="a-point">
                     contacto
                     <point></point>
                 </a>

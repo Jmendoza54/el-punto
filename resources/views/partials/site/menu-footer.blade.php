@@ -1,12 +1,12 @@
 <nav>
     <div class="point"></div>
     <li>
-        <a href="#home" class="">
+        <a href="{{ route('index') }}" class="">
             inicio
         </a>
     </li>
     <li>
-        <a href="#punto" class="">
+        <a href="{{ route('index') }}/#punto" class="">
             elpunto
         </a>
     </li>
@@ -16,12 +16,12 @@
         </a>
     </li>
     <li>
-        <a href="#blog" class="">
+        <a href="{{ route('index') }}/#blog" class="">
             Blog
         </a>
     </li>
     <li>
-        <a href="/concierge" class="">
+        <a href="{{ route('concierge') }}" class="">
             concierge
         </a>
     </li>
