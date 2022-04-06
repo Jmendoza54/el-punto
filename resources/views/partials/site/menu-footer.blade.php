@@ -1,12 +1,22 @@
+@if (Route::currentRouteName() == 'index')
+            
+    @php
+        $link = '';
+    @endphp
+@else
+    @php
+        $link = url('').'/';
+    @endphp
+@endif
 <nav>
     <div class="point"></div>
     <li>
-        <a href="{{ route('index') }}" class="">
+        <a href="{{ $link }}#home" class="">
             inicio
         </a>
     </li>
     <li>
-        <a href="{{ route('index') }}/#punto" class="">
+        <a href="{{ $link }}#punto" class="">
             elpunto
         </a>
     </li>
@@ -16,7 +26,7 @@
         </a>
     </li>
     <li>
-        <a href="{{ route('index') }}/#blog" class="">
+        <a href="{{ $link }}#blog" class="">
             Blog
         </a>
     </li>

@@ -137,7 +137,28 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('js/ui-site.js')}}"></script>
-    <script src="{{ asset('js/script-site.js')}}"></script>
-    
+<script>
+    $(function () {
+
+        const menu = document.querySelector('.menu-activador a');
+
+        menu.addEventListener('click', function (event) {
+            event.preventDefault();
+            this.classList.toggle('menu-abierto');
+        })
+
+        //Mostrar menú mobile
+        $('.menu-activador').on('click', function () {
+            if ($('.menu-activador a').hasClass('menu-abierto')) {
+                $('.mobile').animate({
+                    'top': '118px'
+                })
+            } else {
+                $('.mobile').animate({
+                    'top': '-350px'
+                })
+            }
+        });
+    }); //ready
+</script>
 @endsection
